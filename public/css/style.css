@@ -1,0 +1,45 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+main {
+  text-align: center;
+}
+
+#btnGenerate {
+  padding: 0.8rem 1rem;
+  border-radius: 1rem;
+  box-shadow: 1px 2px 7px #000;
+  margin: 1rem 0;
+  outline: none;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-weight: bold;
+  font-size: medium;
+  background-color: #31319e;
+}
+
+#btnGenerate:hover {
+  background-color: #101092;
+}
+
+#imgsrc {
+  border-radius: 20px;
+  box-shadow: 1px 2px 6px black;
+  margin: 0 1rem;
+}
